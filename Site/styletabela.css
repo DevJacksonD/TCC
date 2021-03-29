@@ -1,0 +1,91 @@
+body, ul, li, p{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	font-size: 1.2rem;
+	font-family: Arial;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+
+h1 {
+    font-size: 2rem;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2 { 
+	font-size: 2.5rem; 
+	text-align: center;
+}
+
+div {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+	max-width: 100%;
+	display: block;
+}
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+.form{
+	padding: 20px;
+	text-align: center;
+	align-items: center;
+	font-size: 14px;
+}
+.header{
+	background: #1d1e20;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+	
+}
+
+.menu{
+	display: flex;
+	
+}
+
+.menu li{
+	margin-left: 10px;
+	
+}
+.menu li a{
+	display: block;
+	padding: 10px;
+	
+}
+.flex{
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 auto;
+}
+
+}
+
+#tableReadings { border-collapse: collapse; }
+
+#tableReadings td, #tableReadings th {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+#tableReadings tr:nth-child(even){ background-color: #f2f2f2; }
+
+#tableReadings tr:hover { background-color: #ddd; }
+
+#tableReadings th {
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
