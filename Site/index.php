@@ -9,7 +9,7 @@
 	</head>
 	<body>
 		<header class="header">
-			<a href="/">Logo</a>
+			<a href="/">Index</a>
 			<nav>
 				<ul class="menu">
 					<li><a href="tabeladados.php">Tabela de dados</a></li>
